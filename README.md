@@ -19,15 +19,16 @@ Add your answers to this markdown file.
 
 ### Question 1
 * Asymptotic analysis can be misleading as constants are thrown out.
-* Lower order terms are dropped which can make an algorithm seem faster (or slower) than it is.
+* Lower order terms are dropped which can make an algorithm seem faster than it is for small data sets.
 * Everyone's hardware is different so results can vary from theory to practice and even from one persons machine to the next.
 
 ### Question 2
 * $\frac{log_{2}(10000)}{log_{2}(1000)}\cdot5=\frac{4}{3}\cdot5=6.67$ seconds.
+* I got this answer by taking the ratio between the numbers inorder to see percentage wise how much longer it should take then multiplied that by the time the 1,000 elements took to get the time for 10,000 elements. 
 
 ### Question 3
 * If you have an unbalanced tree then the tree may act more like a linked list and has to search every element which is time intensive.
-* While the tree's search method may work, it may be poorly implemented which may make it take longer to search.
+* While the tree's search method may work, it may be poorly implemented with many compares which may make it take longer to search.
 * If the machine is working on multiple tasks at once (ie. running the program and streaming a video and running heavy software) it can slow down the runtime of the program.
 
 
