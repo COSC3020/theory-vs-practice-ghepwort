@@ -24,12 +24,13 @@ Add your answers to this markdown file.
 
 ### Question 2
 * $\frac{log_{2}(10000)}{log_{2}(1000)}\cdot5=\frac{4}{3}\cdot5=6.67$ seconds.
-* I got this answer by taking the ratio between the numbers inorder to see percentage wise how much longer it should take then multiplied that by the time the 1,000 elements took to get the time for 10,000 elements. 
+* I got this answer by taking the ratio between the numbers inorder to see percentage wise how much longer it should take then multiplied that by the time the 1,000 elements took to get the time for 10,000 elements.
+* This assumes that only the number of elements in the free affects the search time. In reality things like the tree's balance, time to traverse nodes, and cache inefficencies may hinder the performance.
 
 ### Question 3
-* If you have an unbalanced tree then the tree may act more like a linked list and has to search every element which is time intensive.
-* While the tree's search method may work, it may be poorly implemented with many compares which may make it take longer to search.
-* If the machine is working on multiple tasks at once (ie. running the program and streaming a video and running heavy software) it can slow down the runtime of the program.
+* If you have an unbalanced tree then the tree may act more like a linked list and has to search every element which is time intensive. In practice a linked list of size 1000 will preform about 10x faster than the one of size 10000.
+* While the tree's search method may work, it may be poorly implemented with many compares which may make it take longer to search. In practice these small delays may not be noticable in a small data set but in larger ones they become much more apparent.
+* If the machine is working on multiple tasks at once (ie. running the program and streaming a video and running heavy software) it can slow down the runtime of the program. In practice something of 'small' size will finish quicker and thus have less time to be affected by these background processes. The 'larger' datasets however will run longer and thus will be more vulnerable to being slowed down.
 
 
 ### Credits
